@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "build": "cd portfolio && npm install && npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/jacobtaylormoore/portfolio_website#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "v14.18.2"
   }
 }
