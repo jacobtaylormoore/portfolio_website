@@ -53,6 +53,11 @@ function Navigation(props) {
                         <ListItemText primary='Contact' />
                     </ListItemButton>
                 </ListItem>
+                <ListItem disablePadding>
+                    <ListItemButton sx={{ textAlign: 'center' }}>
+                        <ListItemText primary='Microservice' />
+                    </ListItemButton>
+                </ListItem>
             </List>
         </Box>
     );
@@ -91,6 +96,9 @@ function Navigation(props) {
                         </Button>
                         <Button href='/contact' sx={{ color: '#fff' }}>
                             Contact
+                        </Button>
+                        <Button href='/microservice' sx={{ color: '#fff' }}>
+                            Microservice
                         </Button>
                     </Box>
                 </Toolbar>

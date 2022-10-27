@@ -20,6 +20,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ExperiencePage from './pages/ExperiencePage';
+import Microservice from './pages/Microservice';
 
 
 
@@ -34,6 +35,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/experience" element={<ExperiencePage />} />
+          <Route path="/microservice" element={<Microservice />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const PORT = 8080;
 
@@ -35,7 +36,13 @@ function diceRoll(numDice, numFaces) {
 
 app.use(express.json())
 
+/* I am still very confused what the hell cors does. HMU if you're having issues. I finally found this solution here: 
+https://expressjs.com/en/resources/middleware/cors.html#configuring-cors */
+app.use(cors())
+
 app.post('/dice', (req, res) => {
+
+
     const { numDice } = req.body;
     const { numFaces } = req.body;
 

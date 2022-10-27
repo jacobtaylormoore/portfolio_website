@@ -17,6 +17,7 @@ function ContactPage() {
 
     const handleClick = (event) => {
         setValue(event.target.value);
+        console.log(value);
     };
     return (
         <>
