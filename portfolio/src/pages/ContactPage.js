@@ -15,7 +15,7 @@ import Stack from '@mui/material/Stack';
 function ContactPage() {
     const [value, setValue] = React.useState('Controlled');
 
-    const handleChange = (event) => {
+    const handleClick = (event) => {
         setValue(event.target.value);
     };
     return (
@@ -29,6 +29,7 @@ function ContactPage() {
                 </Box>
             </Grid>
             <Box
+                onSubmit={handleClick}
                 component="form"
                 sx={{
                     '& .MuiTextField-root': { m: 1, width: '24ch' },
@@ -55,13 +56,13 @@ function ContactPage() {
                         id="outlined-multiline-static"
                         label="Your Message"
                         placeholder="Hello..."
-                        fullWidth
                         multiline
                         rows={12}
                     />
                 </div>
+                <Button onClick={handleClick} variant="contained">Submit</Button>
+
             </Box>
-            <Button variant="contained">Submit</Button>
         </>
     );
 }
