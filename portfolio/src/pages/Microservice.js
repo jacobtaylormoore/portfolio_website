@@ -11,6 +11,9 @@ import Grid from '@mui/material/Grid'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 
+import '../App.css';
+
+
 
 function Microservice() {
     const [numDice, setNumDice] = React.useState('3');

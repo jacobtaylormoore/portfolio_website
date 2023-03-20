@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  display: block;
+}
+
+.Jake {
+  width: 20vw;
+  height: 20vh;
 }
 
 code {
