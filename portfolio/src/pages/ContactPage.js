@@ -51,7 +51,7 @@ function ContactPage() {
         <>
             <Navigation />
             <Grid container direction='column' alignItems='center' textAlign={'center'} style={{ padding: '1vh' }}>
-                <Box sx={{ width: '100%', maxWidth: 10000 }}>
+                <Box sx={{ width: '100%', maxWidth: 10000 }} id="contact">
                     <Typography variant='h2' >
                         Contact Me
                     </Typography>

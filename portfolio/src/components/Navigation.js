@@ -16,6 +16,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import '../index.css';
 import '../App.css';
+import { HashLink } from 'react-router-hash-link';
 
 const drawerWidth = 240;
 
@@ -82,12 +83,17 @@ function Navigation(props) {
                             <Button href='/' sx={{ color: '#fff' }}>
                                 Home
                             </Button>
-                            <Button href='/experience' sx={{ color: '#fff' }}>
-                                Experience
-                            </Button>
-                            <Button href='/contact' sx={{ color: '#fff' }}>
-                                Contact
-                            </Button>
+                            {/* <HashLink to="#expHeader">Experience</HashLink> */}
+                            <HashLink to="#expHeader">
+                                <Button sx={{ color: '#fff' }}>
+                                    Experience
+                                </Button>
+                            </HashLink>
+                            <HashLink to="#contact">
+                                <Button sx={{ color: '#fff' }}>
+                                    Contact
+                                </Button>
+                            </HashLink>
                         </Box>
                     </Toolbar>
                 </AppBar>

@@ -12,7 +12,7 @@ import ListItem from '@mui/material/ListItem';
 function ExperienceHeader() {
     return (
         <>
-            <Box classname="experience">
+            <Box classname="experience" id="expHeader">
                 <Typography
                     variant="h1"
                     component="div"

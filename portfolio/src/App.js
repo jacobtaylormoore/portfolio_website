@@ -4,8 +4,9 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  Link
+  Switch
 } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import './App.css';
 import ReactDOM from 'react-dom/client';
 import { useState } from 'react';
@@ -30,9 +31,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          {/* <Route path="/contact" element={<ContactPage />} />
           <Route path="/experience" element={<ExperiencePage />} />
-          <Route path="/microservice" element={<Microservice />} />
+          <Route path="/microservice" element={<Microservice />} /> */}
         </Routes>
       </BrowserRouter>
     </div>
