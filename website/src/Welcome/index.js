@@ -1,9 +1,10 @@
 import './index.css';
+import WelcomeText from './WelcomeText';
 
 function Welcome() {
     return (
-        <div className="Welcome">
-            <h1>Welcome</h1>
+        <div className="welcomeContainer" id="welcomeContainer">
+            <WelcomeText />
         </div>
     );
 }
