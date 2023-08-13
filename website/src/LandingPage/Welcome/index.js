@@ -1,7 +1,7 @@
 import './index.css';
 import WelcomeText from './WelcomeText';
 
-function Welcome() {
+function WelcomeContainer() {
     return (
         <div className="welcomeContainer" id="welcomeContainer">
             <WelcomeText />
@@ -9,4 +9,4 @@ function Welcome() {
     );
 }
 
-export default Welcome;
+export default WelcomeContainer;

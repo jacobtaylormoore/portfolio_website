@@ -1,14 +1,10 @@
 import './App.css';
-import Experience from './Experience';
-import Projects from './Projects';
-import Welcome from './Welcome';
+import LandingPage from './LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <Welcome />
-      <Projects />
-      <Experience />
+      <LandingPage />
     </div>
   );
 }
