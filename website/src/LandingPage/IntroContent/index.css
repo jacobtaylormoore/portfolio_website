@@ -2,4 +2,14 @@
     background-color: black;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+#introParagraphContainer {
+    background-color: blue;
+    flex: 1;
+}
+
+#pictureContainer {
+    flex: 1;
 }

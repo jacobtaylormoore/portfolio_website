@@ -5,3 +5,15 @@
     display: flex;
     flex-direction: column;
 }
+
+#navBar {
+    flex: 1;
+}
+
+#welcomeContainer {
+    flex: 2;
+}
+
+#introContent {
+    flex: 6;
+}
