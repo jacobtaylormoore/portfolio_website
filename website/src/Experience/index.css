@@ -1,6 +1,34 @@
-#experienceContainer {
-    background-color: gray;
+#experienceLayout {
+    background-color: white;
     height: 100vh;
     width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: auto;
+}
+
+#experienceTitleContainer:nth-of-type(1) {
+    flex-basis: 5vh;
+    background-color: brown;
+}
+
+#experienceContainer {
+    flex-basis: 20vh;
+}
+
+#experienceContainer:nth-of-type(2) {
+    background-color: green;
+}
+
+#experienceContainer:nth-of-type(3) {
+    background-color: greenyellow;
+}
+
+#experienceContainer:nth-of-type(4) {
+    background-color: yellow;
+}
+
+#experienceContainer:nth-of-type(5) {
+    background-color: orange;
 }
