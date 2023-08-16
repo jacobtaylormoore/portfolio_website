@@ -3,7 +3,7 @@ import WelcomeText from './WelcomeText';
 
 function WelcomeContainer() {
     return (
-        <div className="welcomeContainer" id="welcomeContainer">
+        <div id="WelcomeContainer">
             <WelcomeText />
         </div>
     );

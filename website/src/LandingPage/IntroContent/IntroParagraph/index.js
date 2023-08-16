@@ -2,7 +2,7 @@ import './index.css';
 
 function IntroParagraph() {
     return (
-        <div className="landingContent" id="introParagraphContainer">
+        <div id="IntroParagraph">
             <h1>Intro Paragraph</h1>
         </div>
     );

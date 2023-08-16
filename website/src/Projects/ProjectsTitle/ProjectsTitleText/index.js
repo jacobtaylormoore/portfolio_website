@@ -2,7 +2,7 @@ import './index.css';
 
 function ProjectsTitleText() {
     return (
-        <div className="ProjectsTitleText">
+        <div id="ProjectsTitleText">
             <h1>My Projects</h1>
         </div>
     );

@@ -3,8 +3,13 @@ import './index.css';
 
 function NavBar() {
     return (
-        <section className="navBar" id="navBar">
-            <NavText text={"Hello"} />
+        <section id="NavBar">
+            <div id="TextContainer">
+                <NavText navLocation="#projectsContainer" text={"Projects"} />
+                <NavText navLocation="#experienceLayout" text={"Experience"} />
+                <NavText navLocation="#aboutPageContainer" text={"About Me"} />
+                <NavText navLocation="#contactPage" text={"Contact"} />
+            </div>
         </section>
     );
 }

@@ -2,7 +2,7 @@ import './index.css';
 
 function ContactPage() {
     return (
-        <div id="contactPage">
+        <div id="ContactPage">
 
         </div>
     );

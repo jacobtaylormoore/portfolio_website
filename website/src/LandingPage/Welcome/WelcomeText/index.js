@@ -2,7 +2,7 @@ import './index.css';
 
 function WelcomeText() {
     return (
-        <div className="WelcomeText">
+        <div id="WelcomeText">
             <h1>Welcome</h1>
         </div>
     );

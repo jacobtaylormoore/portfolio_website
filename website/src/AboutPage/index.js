@@ -3,7 +3,7 @@ import './index.css';
 
 function AboutPage() {
     return (
-        <div id='aboutPageContainer'>
+        <div id='AboutPage'>
             <DieExample />
         </div>
     );

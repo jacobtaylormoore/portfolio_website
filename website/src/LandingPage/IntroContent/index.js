@@ -4,7 +4,7 @@ import './index.css';
 
 function IntroContent() {
     return (
-        <div className="introContent" id="introContent">
+        <div id="IntroContent">
             {/* Intro paragraph and pictures */}
             <IntroParagraph />
             <PictureContainer />
