@@ -2,6 +2,8 @@ import './App.css';
 import LandingPage from './LandingPage';
 import Projects from './Projects';
 import Experience from './Experience';
+import AboutPage from './AboutPage';
+import ContactPage from './ContactPage';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <LandingPage />
       <Projects />
       <Experience />
+      <AboutPage />
+      <ContactPage />
     </div>
   );
 }
