@@ -4,7 +4,7 @@ import './index.css';
 
 function Experience() {
     return (
-        <div className="experienceLayout" id="experienceLayout">
+        <div className="Experience" id="Experience">
             <ExperienceTitleContainer />
             <ExperienceContainer />
             <ExperienceContainer />

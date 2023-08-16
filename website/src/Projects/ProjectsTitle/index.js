@@ -3,7 +3,7 @@ import ProjectsTitleText from './ProjectsTitleText';
 
 function ProjectsTitleContainer() {
     return (
-        <div className="projectsTitleContainer" id="projectsTitleContainer">
+        <div id="ProjectsTitleContainer">
             <ProjectsTitleText />
         </div>
     );

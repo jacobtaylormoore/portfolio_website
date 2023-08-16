@@ -1,3 +1,17 @@
-#navBar {
-    background-color: pink;
+#NavBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#TextContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 95%;
+}
+
+#NavTextContainer {
+    margin-left: 3%;
+    margin-right: 3%;
 }

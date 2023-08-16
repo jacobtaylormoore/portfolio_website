@@ -3,7 +3,7 @@ import './index.css';
 
 function ExperienceContainer() {
     return (
-        <div id="experienceContainer">
+        <div id="ExperienceContainer">
             <ExperienceText />
         </div>
     );

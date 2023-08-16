@@ -3,7 +3,7 @@ import './index.css';
 
 function ProjectContainer() {
     return (
-        <div id="projectContainer">
+        <div id="ProjectContainer">
             <ProjectText />
         </div>
     );

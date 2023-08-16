@@ -5,7 +5,7 @@ import IntroContent from './IntroContent';
 
 function LandingPage() {
     return (
-        <div className="landingContainer" id="landingContainer">
+        <div id="LandingPage">
             <NavBar />
             <WelcomeContainer />
             <IntroContent />
