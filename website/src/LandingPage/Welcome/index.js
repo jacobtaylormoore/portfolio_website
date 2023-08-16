@@ -4,7 +4,9 @@ import WelcomeText from './WelcomeText';
 function WelcomeContainer() {
     return (
         <div id="WelcomeContainer">
-            <WelcomeText />
+            <section id="WelcomeWrap">
+                <WelcomeText />
+            </section>
         </div>
     );
 }
