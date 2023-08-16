@@ -1,3 +1,14 @@
-#PictureContainer {
-    background-color: yellow;
+#PictureWrap {
+    padding-top: 4em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#Picture {
+    /* padding-top: 4em; */
+    height: 65%;
+    width: 65%;
+    border-radius: 5%;
 }

@@ -1,3 +1,10 @@
-#IntroParagraph {
-    background-color: purple;
+#IntroParagraph {}
+
+
+
+#IntroTextBlock {
+    width: 75%;
+    margin: auto;
+    padding-top: 3em;
+    text-align: left;
 }

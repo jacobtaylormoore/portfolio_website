@@ -1,13 +1,17 @@
 #IntroContent {
-    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
+#BorderBox {
+    height: 75%;
+    border-right: 2px solid black;
+}
+
 #IntroParagraph {
-    background-color: blue;
     flex: 1;
+
 }
 
 #PictureContainer {
