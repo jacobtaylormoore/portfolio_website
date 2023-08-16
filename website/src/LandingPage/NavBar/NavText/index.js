@@ -1,9 +1,9 @@
 import './index.css';
 
-function NavText() {
+function NavText({ text }) {
     return (
         <div className="navTextContainer" id="navTextContainer">
-            <h1 id="navText">NavBar</h1>
+            <h1 id="navText">{text}</h1>
         </div>
     );
 }
