@@ -3,9 +3,9 @@ import './index.css';
 
 function NavBar() {
     return (
-        <div className="navBar" id="navBar">
+        <section className="navBar" id="navBar">
             <NavText />
-        </div>
+        </section>
     );
 }
 
