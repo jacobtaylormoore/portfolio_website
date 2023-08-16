@@ -4,7 +4,7 @@ import './index.css';
 function NavBar() {
     return (
         <section className="navBar" id="navBar">
-            <NavText />
+            <NavText text={"Hello"} />
         </section>
     );
 }
