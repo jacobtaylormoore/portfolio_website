@@ -1,0 +1,15 @@
+#IntroContent {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#IntroParagraph {
+    background-color: blue;
+    flex: 1;
+}
+
+#PictureContainer {
+    flex: 1;
+}
