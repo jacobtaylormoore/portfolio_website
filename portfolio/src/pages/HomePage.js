@@ -6,6 +6,7 @@ import Welcome from '../components/Welcome';
 import Headshot from '../components/Image';
 import ExperiencePage from './ExperiencePage';
 import ContactPage from './ContactPage';
+import ProjectList from '../components/ProjectList';
 // MUI
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -24,6 +25,7 @@ function HomePage() {
                 <Navigation classname="navigation" />
                 <Box >
                     <Welcome />
+                    <ProjectList />
                     <ExperiencePage />
                     <ContactPage />
                 </Box>
