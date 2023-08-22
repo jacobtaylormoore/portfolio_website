@@ -9,13 +9,13 @@
 
 #ProjectsTitleContainer:nth-of-type(1) {
     flex-basis: 5vh;
-    background-color: brown;
 }
 
 #ProjectContainer {
     flex-basis: 20vh;
+    border: 5px solid black;
 }
-
+/* 
 #ProjectContainer:nth-of-type(2) {
     background-color: green;
 }
@@ -30,4 +30,4 @@
 
 #ProjectContainer:nth-of-type(5) {
     background-color: orange;
-}
+} */
