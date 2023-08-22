@@ -1,0 +1,6 @@
+What I’ve done so far. 
+I decided to scrap the little that I had already built. I had been trying to build with MUI and ended up getting a bit stuck because I did not have the reps with basic React and (especially) CSS. 
+A while ago, I took the Udemy course Web Developers’ Bootcamp to prep for my Web Dev class. It gave me a good foundation of HTML/CSS and I already had a bit of experience with js. However, the instructor recently added an updated React intro so I used this as a jumping off point. 
+Much of the beginning was spent refamiliarizing myself with the layout concepts in CSS – flexbox, grid, box. I did a lot of testing and tinkering while finishing up the React course update. 
+I also used this time to plan out my layout and basic functionality. I came up with a 3000 ft view of what I wanted, utilizing my minimal drawing skills to visualize things on the whiteboard, and, of course, consulting with my genius wife and her designer’s eye. 
+From  here, I blocked out 
