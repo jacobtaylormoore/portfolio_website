@@ -1,10 +1,10 @@
-import MediumProjectContainer from './MediumProjectContainer';
+import ProjectText from './ProjectText';
 import './index.css';
 
 function ProjectContainer() {
     return (
         <div id="ProjectContainer">
-            <MediumProjectContainer />
+            <ProjectText />
         </div>
     );
 }
