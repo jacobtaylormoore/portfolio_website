@@ -12,11 +12,12 @@
     flex: 1;
 }
 
-#ProjectContainer {
+#MediumProjectContainer {
     flex: 2;
     /* margin: .5em; */
     border: 5px solid black;
 }
+
 /* 
 #ProjectContainer:nth-of-type(2) {
     background-color: green;
