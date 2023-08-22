@@ -1,0 +1,10 @@
+#PicNameTechContainer {
+    display: flex;
+    justify-content: stretch;
+}
+
+#ProjectPic {}
+
+#ProjectName {}
+
+#ProjectTech {}
