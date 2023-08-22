@@ -1,11 +1,14 @@
+import ProjectName from './ProjectName';
+import ProjectPic from './ProjectPic';
+import ProjectTech from './ProjectTech';
 import './index.css';
 
 function PicNameTechContainer() {
     return (
         <div id="PicNameTechContainer">
-            <h2>
-                Hi
-            </h2>
+            <ProjectPic />
+            <ProjectName />
+            <ProjectTech />
         </div>
     );
 }
