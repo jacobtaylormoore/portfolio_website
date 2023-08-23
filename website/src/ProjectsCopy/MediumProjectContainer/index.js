@@ -2,12 +2,13 @@ import BriefDescriptionContainer from './BriefDescriptionContainer';
 import PicNameTechContainer from './PicNameTechContainer';
 import './index.css';
 
-function SmallProjectContainer() {
+function MediumProjectContainer() {
     return (
-        <div id="SmallProjectContainer">
+        <div id="MediumProjectContainer">
             <PicNameTechContainer />
+            <BriefDescriptionContainer />
         </div>
     );
 }
 
-export default SmallProjectContainer;
+export default MediumProjectContainer;
