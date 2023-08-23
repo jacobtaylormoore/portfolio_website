@@ -1,4 +1,4 @@
-import BriefDescriptionContainer from './BriefDescriptionContainer';
+
 import PicNameTechContainer from './PicNameTechContainer';
 import './index.css';
 
