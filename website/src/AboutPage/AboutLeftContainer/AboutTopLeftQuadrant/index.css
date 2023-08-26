@@ -1,0 +1,10 @@
+#AboutTopLeftQuadrant {
+    margin: auto;
+    display: flex;
+}
+
+#AboutPhotoContainer {
+    flex-basis: 40%;
+    background-color: white;
+    border: solid black 1px;
+}
