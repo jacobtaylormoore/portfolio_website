@@ -1,0 +1,18 @@
+#RoleCompanyDatesContainer {
+    display: flex;
+}
+
+#RoleContainer {
+    flex: 1;
+    border: solid black 1px;
+}
+
+#CompanyContainer {
+    flex: 1;
+    border: solid black 1px;
+}
+
+#DatesContainer {
+    flex: 1;
+    border: solid black 1px;
+}

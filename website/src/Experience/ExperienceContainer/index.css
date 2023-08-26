@@ -1,0 +1,15 @@
+#ExperienceContainer {
+    display: flex;
+    flex-direction: column;
+    margin: .5em
+}
+
+#RoleCompanyDatesContainer {
+    flex: 1;
+    border: solid black 1px;
+}
+
+#BulletsContainer {
+    flex: 2;
+    border: solid black 1px;
+}
