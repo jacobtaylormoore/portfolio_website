@@ -1,0 +1,10 @@
+#AboutBottomLeftContainer {
+    display: flex;
+    margin: auto;
+}
+
+#AboutSubtitleContainer {
+    background-color: aliceblue;
+    flex-basis: 40%;
+    border: solid black 1px;
+}

@@ -1,0 +1,12 @@
+#AboutRightContainer {
+    background-color: yellow;
+    display: flex;
+    margin: auto;
+    border: solid black 1px;
+}
+
+#AboutParagraphContainer {
+    flex-basis: 60%;
+    background-color: white;
+    border: solid black 1px;
+}
