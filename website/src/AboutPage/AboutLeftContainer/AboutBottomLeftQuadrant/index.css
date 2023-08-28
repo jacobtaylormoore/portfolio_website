@@ -4,7 +4,9 @@
 }
 
 #AboutSubtitleContainer {
+    height: 44.4%;
+    width: 62.5%;
     background-color: aliceblue;
-    flex-basis: 40%;
+    margin: 5% 12.5% auto 25%;
     border: solid black 1px;
 }
