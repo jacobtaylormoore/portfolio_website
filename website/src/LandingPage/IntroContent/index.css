@@ -4,10 +4,10 @@
     justify-content: center;
 }
 
-#BorderBox {
+/* #BorderBox {
     height: 75%;
     border-right: 2px solid black;
-}
+} */
 
 #IntroParagraph {
     flex: 1;

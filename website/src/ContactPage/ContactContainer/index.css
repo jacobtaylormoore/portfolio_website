@@ -1,0 +1,22 @@
+/* #ContactPage {
+    background-color: white;
+} */
+
+#ContactContainer {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+#ContactTitleContainer {
+    border: solid black 1px;
+    flex: 2;
+}
+
+
+#ContactForm {
+    border: solid black 1px;
+    flex: 7;
+}

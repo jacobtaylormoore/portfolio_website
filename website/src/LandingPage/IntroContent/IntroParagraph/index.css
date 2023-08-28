@@ -1,10 +1,13 @@
-#IntroParagraph {}
+#IntroHeader {
+    text-align: right;
+}
 
-
+#BorderBox {
+    margin: 0 8% 0 0;
+}
 
 #IntroTextBlock {
-    width: 75%;
-    margin: auto;
+
     padding-top: 3em;
-    text-align: left;
+    text-align: right;
 }
