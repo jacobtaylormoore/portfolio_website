@@ -1,9 +1,5 @@
-#PictureWrap {
-    padding-top: 4em;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+#PictureContainer {
+    margin: 0 auto auto auto;
 }
 
 #Picture {

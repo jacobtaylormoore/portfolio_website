@@ -1,0 +1,27 @@
+/* #ContactPage {
+    background-color: white;
+} */
+#ContactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#NameEntry {
+    flex: 1;
+    border: solid black 1px;
+}
+
+#EmailEntry {
+    flex: 1;
+    border: solid black 1px;
+}
+
+#MessageEntry {
+    flex: 3;
+    border: solid black 1px;
+}
+
+#SubmitButtonContainer {
+    flex: 1;
+    border: solid black 1px;
+}
