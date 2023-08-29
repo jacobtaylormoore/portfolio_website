@@ -5,9 +5,6 @@ function BulletsContainer(props) {
         <div id="BulletsContainer">
             <ul>
                 {props.bullets.map((bullet, i) => <li id={i}>{bullet}</li>)}
-                {/* <li>One</li>
-                <li>Two</li>
-                <li>Three</li> */}
             </ul>
         </div>
     );
