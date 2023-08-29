@@ -1,9 +1,9 @@
 import './index.css';
 
-function CompanyContainer() {
+function CompanyContainer(props) {
     return (
         <div id="CompanyContainer">
-            <p>Company</p>
+            <p>{props.company}</p>
         </div>
     );
 }

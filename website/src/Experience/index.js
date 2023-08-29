@@ -3,13 +3,60 @@ import ExperienceTitleContainer from './ExperienceTitle';
 import './index.css';
 
 function Experience() {
+
+    const experience =
+    {
+        "experience": [
+            {
+                "role": "Software Development Intern",
+                "company": "Levrum Data Technologies",
+                "date": "March 2023 - June 2023",
+                "description": "Worked with a small team to develop and deploy a cloud service, called Code3 Coverage, which serves counties and fire stations across the country by calculating travel time estimates to each area covered by a given selection of stations.",
+                "bullets": [
+                    "Restructured the existing back end to adhere to SOLID principles, modularizing the design and significantly increasing the efficiency of the product.",
+                    "Added authentication process and replaced all API calls in the existing front end.",
+                    "Deployed application to AWS Cloud, gaining valuable experience working with AWS services including Amplify, S3, Lambda, and Elastic Beanstalk."
+                ]
+            },
+            {
+                "role": "Software Development & Computer Science",
+                "company": "Oregon State University",
+                "date": "April 2020 - June 2023",
+                "description": "Pursued higher education to advance software development, project management, and data science expertise.",
+                "bullets": [
+                    "Database Design – Demonstrated a deep understanding of database design, normalization, and implementation as well as CRUD operations by launching a website connecting to an example database of users for a fictional audio streaming service.",
+                    "Computer Networking – Produced a client and server socket, establishing a connection to send and receive TCP packets, emulating a simple chat client. As a result, highlighted a solid grasp of socket programming and computer networking.",
+                    "Object Oriented Programming – Developed a game of Janggi (Korean Chess) highlighting a solid understanding of class composition and inheritance, recursion, data structures, and more."
+                ]
+            },
+            {
+                "role": "Producer & Development Manager",
+                "company": "Arts + Labor",
+                "date": "May 2019 - April 2020",
+                "description": "Planned, coordinated, and managed complex production projects for diverse commercial and film initiatives. Built, coached, and led a cross-functional project team. Oversaw budgets, resources, timelines, risk, and change management.",
+                "bullets": [
+                    "Recognized as a Top Producer and Project Manager on a variety of production projects including Lover, Beloved SXSW-premier feature film written by and starring Suzanne Vega, John Goodenough: Changing the World documentary short, Hot Science Cool Talks web series, Indeed’s Resume TV spot, UT Austin Anthem TV spot, and Sing That One to Me music video by Ben Dickey."
+                ]
+            },
+            {
+                "role": "Production Intern",
+                "company": "Detour Film Production",
+                "date": "January 2019 - April 2019",
+                "description": "Selected into a coveted internship, managing diverse projects for the production company of Richard Linklater.",
+                "bullets": [
+                    "Gained expertise in script writing, reviewed screenplays sent from agencies, and coordinated 20-year anniversary Q&A of Mike Judge’s Office Space."
+                ]
+            }
+        ]
+    };
+
     return (
         <div className="Experience" id="Experience">
             <ExperienceTitleContainer />
-            <ExperienceContainer />
-            <ExperienceContainer />
-            <ExperienceContainer />
-            <ExperienceContainer />
+            <ExperienceContainer experience={experience.experience[0]} />
+            <ExperienceContainer experience={experience.experience[1]} />
+            <ExperienceContainer experience={experience.experience[2]} />
+            <ExperienceContainer experience={experience.experience[3]} />
         </div>
     );
 }

@@ -1,9 +1,9 @@
 import './index.css';
 
-function RoleContainer() {
+function RoleContainer(props) {
     return (
         <div id="RoleContainer">
-            <p>Role</p>
+            <p>{props.role}</p>
         </div>
     );
 }

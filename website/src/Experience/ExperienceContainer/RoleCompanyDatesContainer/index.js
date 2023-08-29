@@ -3,12 +3,12 @@ import DatesContainer from './DatesContainer';
 import RoleContainer from './RoleContainer';
 import './index.css';
 
-function RoleCompanyDatesContainer() {
+function RoleCompanyDatesContainer(props) {
     return (
         <div id="RoleCompanyDatesContainer">
-            <RoleContainer />
-            <CompanyContainer />
-            <DatesContainer />
+            <RoleContainer role={props.role} />
+            <CompanyContainer company={props.company} />
+            <DatesContainer date={props.date} />
         </div>
     );
 }

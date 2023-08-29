@@ -1,9 +1,9 @@
 import './index.css';
 
-function DatesContainer() {
+function DatesContainer(props) {
     return (
         <div id="DatesContainer">
-            <p>Dates</p>
+            <p>{props.date}</p>
         </div>
     );
 }

@@ -2,11 +2,12 @@ import BulletsContainer from './BulletsContainer';
 import RoleCompanyDatesContainer from './RoleCompanyDatesContainer';
 import './index.css';
 
-function ExperienceContainer() {
+function ExperienceContainer(props) {
+    console.log(props.experience);
     return (
         <div id="ExperienceContainer">
-            <RoleCompanyDatesContainer />
-            <BulletsContainer />
+            <RoleCompanyDatesContainer role={props.experience.role} company={props.experience.company} date={props.experience.date} />
+            <BulletsContainer bullets={props.experience.bullets} />
         </div>
     );
 }

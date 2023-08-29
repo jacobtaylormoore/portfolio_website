@@ -1,12 +1,13 @@
 import './index.css';
 
-function BulletsContainer() {
+function BulletsContainer(props) {
     return (
         <div id="BulletsContainer">
             <ul>
-                <li>One</li>
+                {props.bullets.map((bullet, i) => <li id={i}>{bullet}</li>)}
+                {/* <li>One</li>
                 <li>Two</li>
-                <li>Three</li>
+                <li>Three</li> */}
             </ul>
         </div>
     );
