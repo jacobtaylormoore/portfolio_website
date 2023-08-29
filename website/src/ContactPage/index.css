@@ -8,10 +8,10 @@
 
 #ContactContainer {
     flex: 7.5;
-    background-color: peachpuff;
+    /* background-color: peachpuff; */
 }
 
 #CopyrightContainer {
     flex: 1.5;
-    background-color: aqua;
+    /* background-color: aqua; */
 }

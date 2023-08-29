@@ -3,6 +3,10 @@
 
 }
 
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
 
 .App-header {
   background-color: #282c34;
@@ -21,13 +25,13 @@
 }
 
 #LandingPage {
-  background-color: grey;
+  /* background-color: var(--primary-color); */
 }
 
 #Experience {
-  background-color: grey;
+  /* background-color: var(--primary-color); */
 }
 
 #ContactPage {
-  background-color: grey;
+  /* background-color: var(--primary-color); */
 }

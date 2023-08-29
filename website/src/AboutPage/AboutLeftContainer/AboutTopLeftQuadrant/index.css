@@ -1,13 +1,13 @@
 #AboutTopLeftQuadrant {
     display: flex;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 #AboutPhotoContainer {
     height: 77.7%;
     width: 62.5%;
     margin: auto 12.5% 0% 25%;
-    background-color: white;
+    /* background-color: white; */
     /* background-color: white; */
     border: solid black 1px;
 }

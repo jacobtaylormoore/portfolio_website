@@ -20,17 +20,17 @@
 }
 
 #ExperienceContainer:nth-of-type(2) {
-    background-color: green;
+    /* background-color: green; */
 }
 
 #ExperienceContainer:nth-of-type(3) {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
 }
 
 #ExperienceContainer:nth-of-type(4) {
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 #ExperienceContainer:nth-of-type(5) {
-    background-color: orange;
+    /* background-color: orange; */
 }

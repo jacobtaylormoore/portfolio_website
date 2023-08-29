@@ -15,6 +15,6 @@
 #AboutBottomLeftQuadrant {
     flex: 1;
     height: 50%;
-    background-color: orange;
+    /* background-color: orange; */
     border: solid black 1px;
 }

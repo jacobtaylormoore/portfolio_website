@@ -7,10 +7,10 @@
 
 #PicNameTechContainer {
     flex: 2 2;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 #BriefDescriptionContainer {
     flex: 1 1;
-    background-color: tan;
+    /* background-color: tan; */
 }
