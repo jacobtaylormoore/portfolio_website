@@ -1,6 +1,6 @@
 #LandingPage {
     min-height: 100vh;
-    width: 95vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     flex-basis: fit-content;
