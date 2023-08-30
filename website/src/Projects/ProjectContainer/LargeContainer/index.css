@@ -1,8 +1,11 @@
-#MediumProjectContainer {
-    margin: .5em;
+#LargeContainer {
+    min-height: 35em;
+    width: 87%;
+    margin: 1em auto 1em auto;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    border: 5px solid black;
 }
 
 #PicNameTechContainer {
@@ -13,4 +16,8 @@
 #BriefDescriptionContainer {
     flex: 1 1;
     /* background-color: tan; */
+}
+
+#VideoContainer {
+    flex: 3 3;
 }

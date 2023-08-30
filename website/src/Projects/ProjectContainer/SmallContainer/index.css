@@ -1,8 +1,18 @@
-#MediumProjectContainer {
-    margin: .5em;
+#SmallContainer {
+    min-height: 10em;
+    width: 85%;
+    margin: 1em auto 1em auto;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    border: 5px solid black;
+}
+
+
+#SmallContainer:hover {
+    min-height: 13em;
+    width: 87%;
+    box-shadow: 10px 5px 10px black;
 }
 
 #PicNameTechContainer {

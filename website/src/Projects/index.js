@@ -1,16 +1,16 @@
-
 import ProjectsTitleContainer from './ProjectsTitle';
 import './index.css';
-import MediumProjectContainer from './MediumProjectContainer';
+import ProjectContainer from './ProjectContainer';
 
 function Projects() {
+
     return (
-        <div id="ProjectsContainer">
+        <div id="Projects">
             <ProjectsTitleContainer />
-            <MediumProjectContainer />
-            <MediumProjectContainer />
-            <MediumProjectContainer />
-            <MediumProjectContainer />
+            <ProjectContainer />
+            <ProjectContainer />
+            <ProjectContainer />
+            <ProjectContainer />
         </div>
     );
 }
