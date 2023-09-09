@@ -1,7 +1,8 @@
 #ExperienceContainer {
     display: flex;
     flex-direction: column;
-    margin: .5em
+    margin: .5em auto .5em auto;
+    width: 85%;
 }
 
 #RoleCompanyDatesContainer {
