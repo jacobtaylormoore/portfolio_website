@@ -13,16 +13,15 @@ code {
 }
 
 :root {
-  --primary-color: #F07167;
-  --secondary-color: #00AFB9;
-  --font-color: #0081A7;
-  --bg-color: #FDFCDC;
-  --heading-color: #0081A7;
-  /* --primary-color: #0081A7;
-  --secondary-color: #00AFB9;
-  --tertiary-color: #FDFCDC;
-  --quaternary-color: #FED9B7;
-  --quinnary-color: #F07167; */
+  --primary-color: #E07A5F;
+  --secondary-color: #81B29A;
+  --tertiary-color: #F2CC8F;
+  --font-color: #3D405B;
+  --bg-color: #F4F1DE;
+  --heading-color: #3D405B;
+  --border-color: var(--secondary-color);
+  --shadow-color: var(--secondary-color);
+  --card-background-color: var(--tertiary-color);
 }
 
 a {
