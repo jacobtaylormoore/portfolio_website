@@ -1,20 +1,22 @@
 #AboutLeftContainer {
-    display: flex;
+    margin: 0;
+    vertical-align: middle;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    border: solid black 1px;
+    justify-content: space-evenly; */
+    /* border: solid black 1px; */
 }
 
-#AboutTopLeftQuadrant {
+/* #AboutTopLeftQuadrant {
     flex: 1;
     height: 50%;
-    /* background-color: pink; */
+    /* background-color: pink; 
     border: solid black 1px;
 }
 
 #AboutBottomLeftQuadrant {
     flex: 1;
     height: 50%;
-    /* background-color: orange; */
+    /* background-color: orange; 
     border: solid black 1px;
-}
+} */

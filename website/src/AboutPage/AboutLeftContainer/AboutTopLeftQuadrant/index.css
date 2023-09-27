@@ -4,10 +4,10 @@
 }
 
 #AboutPhotoContainer {
-    height: 77.7%;
-    width: 62.5%;
-    margin: auto 12.5% 0% 25%;
+    height: 85%;
+    width: 70%;
+    margin: 12.5% 12.5% 0% 25%;
+    vertical-align: middle;
     /* background-color: white; */
     /* background-color: white; */
-    border: solid black 1px;
 }

@@ -7,7 +7,7 @@ function AboutLeftContainer() {
     return (
         <div id='AboutLeftContainer'>
             <AboutTopLeftQuadrant />
-            <AboutBottomLeftQuadrant />
+            {/* <AboutBottomLeftQuadrant /> */}
         </div>
     );
 }

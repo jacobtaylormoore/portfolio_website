@@ -1,10 +1,11 @@
 
+import MyGallery from './MyGallery';
 import './index.css';
 
 function AboutPhotoContainer() {
     return (
         <div id='AboutPhotoContainer'>
-            <p>Photo</p>
+            <MyGallery />
         </div>
     );
 }

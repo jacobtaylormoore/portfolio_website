@@ -1,5 +1,5 @@
 #AboutRightContainer {
-    height: 100%;
+    height: 100vh;
     /* background-color: yellow; */
     display: flex;
     border: solid black 1px;
