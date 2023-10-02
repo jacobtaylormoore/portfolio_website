@@ -2,10 +2,10 @@
   "name": "portfolio_website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "build": "cd portfolio && npm install && npm run build"
+    "start": "cd server && node index.js",
+    "build": "cd website && npm install && npm run build"
   },
   "repository": {
     "type": "git",
