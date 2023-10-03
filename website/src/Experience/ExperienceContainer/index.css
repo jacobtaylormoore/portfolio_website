@@ -7,10 +7,10 @@
 
 #RoleCompanyDatesContainer {
     flex: 1;
-    border: solid black 1px;
+    border-bottom: solid black 1px;
 }
 
 #BulletsContainer {
     flex: 2;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }

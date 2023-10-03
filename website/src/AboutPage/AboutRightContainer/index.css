@@ -2,7 +2,7 @@
     height: 100vh;
     /* background-color: yellow; */
     display: flex;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 #AboutParagraphContainer {
@@ -11,5 +11,5 @@
     /* background-color: white; */
     /* margin: 18% 12.5% 22.2% 12.5%; */
     margin: 12% 23% auto 12%;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
