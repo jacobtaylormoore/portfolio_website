@@ -31,19 +31,22 @@ function ContactForm() {
         var raw = JSON.stringify(contact);
 
         var requestOptions = {
-            method: 'POST',
+            method: 'GET',
+            mode: 'no-cors',
             headers: myHeaders,
-            body: raw,
             redirect: 'follow',
         };
 
-        console.log(requestOptions);
-        console.log('Hello');
+        const link = `https://formsubmit.co/el/caxona/?name=` + JSON.stringify(contact.senderName) + `&?email=` + JSON.stringify(contact.sender) + `&?message=` + JSON.stringify(contact.message)
 
-        // fetch("http://localhost:8090/api/contact/email/send_email", requestOptions)
-        //     .then(response => response.text())
-        //     .then(result => console.log(result))
-        //     .catch(error => console.log('error', error));
+        // console.log(requestOptions);
+        // console.log(raw);
+        // console.log('Hello');
+
+        fetch(link, requestOptions)
+            .then(response => response.text())
+            .then(result => console.log(result))
+            .catch(error => console.log('error', error));
 
     }
 
