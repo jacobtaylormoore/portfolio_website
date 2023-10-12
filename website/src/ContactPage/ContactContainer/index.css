@@ -3,7 +3,7 @@
 } */
 
 #ContactContainer {
-    /* border: solid black 1px; */
+    border: solid black 1px;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -11,12 +11,12 @@
 }
 
 #ContactTitleContainer {
-    /* border: solid black 1px; */
+    border: solid black 1px;
     flex: 2;
 }
 
 
 #ContactForm {
-    /* border: solid black 1px; */
+    border: solid black 1px;
     flex: 7;
 }

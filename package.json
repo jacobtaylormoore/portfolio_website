@@ -1,0 +1,34 @@
+{
+  "name": "portfolio_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "cd server && node index.js",
+    "build": "cd website && npm install && npm run build && cd ../server && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobtaylormoore/portfolio_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobtaylormoore/portfolio_website/issues"
+  },
+  "homepage": "https://github.com/jacobtaylormoore/portfolio_website#readme",
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.9",
+    "axios": "^1.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "engines": {
+    "node": "14.18.2"
+  }
+}
