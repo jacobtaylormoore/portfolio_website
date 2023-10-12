@@ -4,10 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-<<<<<<< HEAD
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-=======
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,7 +13,6 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
->>>>>>> parent of 2ce8a02 (changes in package. trying to get contact pgcomm)
   <React.StrictMode>
     <App />
   </React.StrictMode>
