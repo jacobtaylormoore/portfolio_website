@@ -8,20 +8,20 @@
 
 #NameEntry {
     flex: 1;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 #EmailEntry {
     flex: 1;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 #MessageEntry {
     flex: 3;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 #SubmitButtonContainer {
     flex: 1;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }

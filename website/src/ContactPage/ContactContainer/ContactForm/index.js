@@ -1,9 +1,14 @@
-import EmailEntry from './EmailEntry';
-import MessageEntry from './MessageEntry';
-import NameEntry from './NameEntry';
-import SubmitButtonContainer from './SubmitButtonContainer';
-import * as React from 'react';
 import './index.css';
+
+// import * as React from 'react';
+import * as React from 'react';
+
+// MUI
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Grid'
+import Button from '@mui/material/Button';
 
 function ContactForm() {
 
@@ -25,14 +30,14 @@ function ContactForm() {
         var raw = JSON.stringify(contact);
 
         var requestOptions = {
-            method: 'POST',
+            method: 'GET',
             headers: myHeaders,
-            body: raw,
+            // body: raw,
             redirect: 'follow',
         };
 
         console.log(requestOptions);
-        console.log('Hello');
+        console.log(raw);
 
         // fetch("http://localhost:8090/api/contact/email/send_email", requestOptions)
         //     .then(response => response.text())
@@ -43,12 +48,50 @@ function ContactForm() {
 
     return (
         <div id="ContactForm">
-            <NameEntry />
-            <EmailEntry />
-            <MessageEntry />
-            <SubmitButtonContainer />
+            <Box component='form' >
+                <div>
+                    <TextField
+                        id="outlined-textarea"
+                        label="Your Name"
+                        fullWidth
+                        value={senderName}
+                        onChange={(e) => setSenderName(e.target.value)}
+                        multiline
+                    />
+                </div>
+                <Box padding='.5em'></Box>
+                <div>
+                    <TextField
+                        id="outlined-textarea"
+                        label="Your Email"
+                        fullWidth
+                        value={sender}
+                        onChange={(e) => setSender(e.target.value)}
+                        multiline
+                    />
+                </div>
+                <Box padding='.5em'></Box>
+                <div>
+                    <TextField
+                        id="outlined-multiline-static"
+                        label="Your Message"
+                        fullWidth
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                        multiline
+                        rows={15}
+                    />
+                </div>
+                <Grid container direction='column' style={{ padding: '1vh' }}>
+                    <Box sx={{ width: '85%', maxWidth: 1000 }}>
+                        <Button type="submit" variant="contained" >Submit</Button>
+                    </Box>
+                </Grid>
+            </Box>
+
         </div>
     );
 }
+
 
 export default ContactForm;
