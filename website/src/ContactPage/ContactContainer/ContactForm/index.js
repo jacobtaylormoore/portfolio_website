@@ -2,6 +2,7 @@ import EmailEntry from './EmailEntry';
 import MessageEntry from './MessageEntry';
 import NameEntry from './NameEntry';
 import SubmitButtonContainer from './SubmitButtonContainer';
+import * as React from 'react';
 import './index.css';
 
 function ContactForm() {
