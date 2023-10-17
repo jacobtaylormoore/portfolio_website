@@ -20,12 +20,12 @@ import Wedding from '../../../../../images/wedding.jpg';
 
 const images = [
     {
-        original: Baylor,
-        thumbnail: Baylor,
-    },
-    {
         original: Beach,
         thumbnail: Beach,
+    },
+    {
+        original: Wedding,
+        thumbnail: Wedding,
     },
     {
         original: ChildSnow,
@@ -68,9 +68,10 @@ const images = [
         thumbnail: Triathlon,
     },
     {
-        original: Wedding,
-        thumbnail: Wedding,
+        original: Baylor,
+        thumbnail: Baylor,
     },
+
 ];
 
 class MyGallery extends React.Component {

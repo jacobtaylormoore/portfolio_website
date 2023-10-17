@@ -1,0 +1,9 @@
+#ProjectTech {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+h3 {
+    flex: 1;
+}

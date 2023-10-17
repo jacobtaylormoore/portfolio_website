@@ -1,9 +1,9 @@
 import './index.css';
 
-function BriefDescriptionContainer() {
+function BriefDescriptionContainer(props) {
     return (
         <div id="BriefDescriptionContainer">
-            <h3>BriefDescription</h3>
+            <h4>{props.description}</h4>
         </div>
     );
 }

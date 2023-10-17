@@ -1,5 +1,5 @@
 #AboutParagraphContainer {
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;

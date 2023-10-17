@@ -3,7 +3,7 @@ import './index.css';
 function CopyrightContainer() {
     return (
         <div id="CopyrightContainer">
-            <p>CopyrightContainer</p>
+            <p>&copy; Jacob Moore 2023</p>
         </div>
     );
 }

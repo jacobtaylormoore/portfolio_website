@@ -1,9 +1,9 @@
 import './index.css';
 
-function ProjectName() {
+function ProjectName(props) {
     return (
         <div id="ProjectName">
-            <h3>Project Name</h3>
+            <h3>{props.name}</h3>
         </div>
     );
 }

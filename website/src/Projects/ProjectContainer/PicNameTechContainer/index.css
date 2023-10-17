@@ -3,10 +3,10 @@
     justify-content: stretch;
 }
 
-#ProjectPic {
+/* #ProjectPic {
     flex: 1;
-    /* border: solid black 1px; */
-}
+    /* border: solid black 1px; 
+} */
 
 #ProjectName {
     flex: 1;
