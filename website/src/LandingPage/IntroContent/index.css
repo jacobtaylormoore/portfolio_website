@@ -1,4 +1,6 @@
 #IntroContent {
+    margin-top: 15vh;
+    margin-bottom: 5vh;
     display: flex;
     flex-direction: row;
     justify-content: center;

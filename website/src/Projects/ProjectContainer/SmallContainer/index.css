@@ -1,6 +1,6 @@
 #SmallContainer {
     min-height: 10em;
-    width: 85%;
+    width: 75%;
     margin: 1em auto 1em auto;
     display: flex;
     flex-direction: column;
@@ -13,8 +13,8 @@
 
 
 #SmallContainer:hover {
-    min-height: 13em;
-    width: 87%;
+    min-height: 10.5em;
+    width: 77%;
 
     box-shadow: 10px 5px 10px var(--shadow-color);
 }

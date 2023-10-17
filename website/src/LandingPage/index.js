@@ -7,7 +7,7 @@ function LandingPage() {
     return (
         <div id="LandingPage">
             <NavBar />
-            <WelcomeContainer />
+            {/* <WelcomeContainer /> */}
             <IntroContent />
         </div>
     );
