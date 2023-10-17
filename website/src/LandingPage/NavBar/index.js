@@ -1,14 +1,29 @@
-import NavText from './NavText';
-import './index.css';
+import './index.css'
+import * as React from 'react';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import styled from '@emotion/styled';
 
 function NavBar() {
+
+    const NavButton = styled(Button)(() => ({
+        color: "#3D405B",
+        borderColor: "#3D405B",
+        '&:hover': {
+            color: "#3D405B",
+            borderColor: "#3D405B",
+        }
+    }))
+
     return (
         <section id="NavBar">
             <div id="TextContainer">
-                <NavText navLocation="#ProjectsContainer" text={"Projects"} />
-                <NavText navLocation="#Experience" text={"Experience"} />
-                <NavText navLocation="#AboutPage" text={"About Me"} />
-                <NavText navLocation="#ContactPage" text={"Contact"} />
+                <Stack spacing={2} direction="row">
+                    <NavButton variant="outlined" href="#Projects">Projects</NavButton>
+                    <NavButton variant="outlined" href="#Experience">Experience</NavButton>
+                    <NavButton variant="outlined" href="#AboutPage">About Me</NavButton>
+                    <NavButton variant="outlined" href="#ContactPage">Contact</NavButton>
+                </Stack>
             </div>
         </section>
     );

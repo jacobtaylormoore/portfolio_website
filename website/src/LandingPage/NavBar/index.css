@@ -15,3 +15,9 @@
     margin-left: 3%;
     margin-right: 3%;
 }
+
+.MuiButton-outlined {
+    background-color: var(--bg-color);
+    border-color: var(--font-color);
+    color: var(--font-color);
+}
