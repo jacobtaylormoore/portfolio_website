@@ -1,7 +1,9 @@
 import './index.css';
 
 // import * as React from 'react';
-import * as React from 'react';
+import React, { useRef } from 'react';
+
+import emailjs from '@emailjs/browser';
 
 // MUI
 import Box from '@mui/material/Box';
@@ -10,8 +12,12 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid'
 import Button from '@mui/material/Button';
 
+
+
+
 function ContactForm() {
 
+    const form = useRef();
     // Set all fields necessary for twilio api
     const [sender, setSender] = React.useState('');
     const [recipient, setRecipient] = React.useState('jacobtaylormoore@gmail.com');
@@ -19,25 +25,39 @@ function ContactForm() {
     const [senderName, setSenderName] = React.useState('');
     const [subject, setSubject] = React.useState('Email from my website');
     const [recipientName, setRecipientName] = React.useState('Jake');
+    const PUBLIC_KEY = 'TVUYt6vTSjI_CnHFz';
+    const SERVICE_ID = 'contact_service';
+    const TEMPLATE_ID = 'contact_form';
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const contact = { sender, recipient, message, senderName, subject, recipientName };
-
-        var myHeaders = new Headers();
-        myHeaders.append("Content-Type", "application/json");
-
-        var raw = JSON.stringify(contact);
-
-        var requestOptions = {
-            method: 'GET',
-            headers: myHeaders,
-            // body: raw,
-            redirect: 'follow',
+        const contact = {
+            "sender": sender,
+            "message": message,
+            "senderName": senderName
         };
 
-        console.log(requestOptions);
-        console.log(raw);
+        // var myHeaders = new Headers();
+        // myHeaders.append("Content-Type", "application/json");
+
+        // var raw = JSON.stringify(contact);
+
+        // var requestOptions = {
+        //     method: 'GET',
+        //     headers: myHeaders,
+        //     // body: raw,
+        //     redirect: 'follow',
+        // };
+
+        // console.log(requestOptions);
+        // console.log(raw);
+
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
 
         // fetch("http://localhost:8090/api/contact/email/send_email", requestOptions)
         //     .then(response => response.text())
@@ -48,10 +68,11 @@ function ContactForm() {
 
     return (
         <div id="ContactForm">
-            <Box component='form' >
+            <Box component='form' ref={form} onSubmit={handleSubmit} >
                 <div>
                     <TextField
-                        id="outlined-textarea"
+                        id="senderName"
+                        name="senderName"
                         label="Your Name"
                         fullWidth
                         value={senderName}
@@ -62,7 +83,8 @@ function ContactForm() {
                 <Box padding='.5em'></Box>
                 <div>
                     <TextField
-                        id="outlined-textarea"
+                        id="sender"
+                        name="sender"
                         label="Your Email"
                         fullWidth
                         value={sender}
@@ -73,7 +95,8 @@ function ContactForm() {
                 <Box padding='.5em'></Box>
                 <div>
                     <TextField
-                        id="outlined-multiline-static"
+                        id="message"
+                        name="message"
                         label="Your Message"
                         fullWidth
                         value={message}
