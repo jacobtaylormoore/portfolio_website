@@ -58,6 +58,11 @@ function ContactForm() {
             }, (error) => {
                 console.log(error.text);
             });
+        setSender("");
+        setMessage("");
+        setSenderName("");
+        alert("Message delivered");
+
 
         // fetch("http://localhost:8090/api/contact/email/send_email", requestOptions)
         //     .then(response => response.text())
