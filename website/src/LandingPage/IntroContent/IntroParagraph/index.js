@@ -8,9 +8,9 @@ function IntroParagraph() {
                     <h1>Jake Moore</h1>
                 </div>
                 <div id="IntroTextBlock">
-                    <h2>Software Engineer</h2>
-                    <h2>Basketball Enthusiast</h2>
-                    <h2>Lifelong Learner</h2>
+                    <h3>Software Engineer</h3>
+                    <h3>Basketball Enthusiast</h3>
+                    <h3>Lifelong Learner</h3>
                 </div>
             </div>
         </div >
