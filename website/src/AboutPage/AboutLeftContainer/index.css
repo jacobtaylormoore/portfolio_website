@@ -1,6 +1,7 @@
 #AboutLeftContainer {
     margin: 0;
     vertical-align: middle;
+    clear: both;
     /* display: flex;
     flex-direction: column;
     justify-content: space-evenly; */

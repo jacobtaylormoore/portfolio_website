@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin: auto;
+    clear: both;
 }
 
 #ExperienceTitleContainer:nth-of-type(1) {

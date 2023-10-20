@@ -3,6 +3,7 @@
     /* background-color: yellow; */
     display: flex;
     /* border: solid black 1px; */
+    clear: both;
 }
 
 #AboutParagraphContainer {

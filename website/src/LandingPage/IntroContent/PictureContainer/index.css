@@ -1,5 +1,6 @@
 #PictureContainer {
     margin: 0 auto auto auto;
+
 }
 
 #Picture {
@@ -7,4 +8,5 @@
     height: 65%;
     width: 65%;
     border-radius: 5%;
+    box-shadow: -7px 9px 21px -8px #3B493B;
 }
