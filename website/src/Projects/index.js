@@ -8,7 +8,7 @@ function Projects() {
         [
             "Levrum's Code3 Coverage Cloud App",
             ["React", "C#", "AWS"],
-            "A previous group of interns had begun to build a cloud application for Levrum’s Code3 Coverage tool, which provides counties and fire stations essential data about travel times within their jurisdiction. Our group took the minor existing codebase, restructured the API to adhere to SOLID principles, modularized the design, and deployed a full minimum viable product which is now in use."
+            "A previous team had begun to build a cloud application for Levrum’s Code3 Coverage tool, which provides counties and fire stations essential data about travel times within their jurisdiction. Our group took the minor existing codebase, restructured the API to adhere to SOLID principles, modularized the design, and deployed a full minimum viable product which is now in use."
         ],
         [
             "Wasteagram Mobile App",
