@@ -7,7 +7,7 @@
     justify-content: stretch;
     border: 5px solid var(--border-color);
     /* background-color: var(--card-background-color); */
-    border-radius: 1% / 10%;
+    border-radius: 1% / 7%;
     transition: 1s;
 }
 
@@ -20,11 +20,11 @@
 }
 
 #PicNameTechContainer {
-    flex: 2 2;
+    flex: 1;
     /* background-color: aqua; */
 }
 
 #BriefDescriptionContainer {
-    flex: 1 1;
+    flex: 1;
     /* background-color: tan; */
 }

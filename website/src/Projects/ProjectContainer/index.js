@@ -1,5 +1,4 @@
 import SmallContainer from './SmallContainer';
-import LargeContainer from './LargeContainer';
 import React, { useState } from 'react';
 import './index.css';
 
