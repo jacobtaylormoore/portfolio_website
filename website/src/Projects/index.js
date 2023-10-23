@@ -8,22 +8,22 @@ function Projects() {
         [
             "Levrum's Code3 Coverage Cloud App",
             ["React", "C#", "AWS"],
-            "A previous team had begun to build a cloud application for Levrum’s Code3 Coverage tool, which provides counties and fire stations essential data about travel times within their jurisdiction. Our group took the minor existing codebase, restructured the API to adhere to SOLID principles, modularized the design, and deployed a full minimum viable product which is now in use."
+            "Our team embarked on enhancing Levrum's Code3 Coverage tool by revamping an existing cloud application. This tool is pivotal for counties and fire stations, offering crucial data on travel times within their jurisdiction. We took the pre-existing codebase and executed a comprehensive restructuring, aligning the API with SOLID principles, and implementing a modularized design. The result? A fully functional minimum viable product that is now actively in use."
         ],
         [
             "Wasteagram Mobile App",
             ["Flutter", "Dart", "Google Firebase"],
-            "A full stack Flutter mobile app clone of Instagram designed for small business owners to keep track of inventory. The app works with iOS and Android, accessing camera roll and photo library resources and connects to Google Firebase database, storing photos on Firestore."
+            "A robust Flutter mobile app, affectionately dubbed 'Wasteagram', mirrors the familiar Instagram functionality. This app caters to small business owners, empowering them to manage their inventory seamlessly. It seamlessly operates on both iOS and Android, granting access to camera roll and photo library resources. Plus, it seamlessly connects to Google Firebase for database management, storing photos on Firestore."
         ],
         [
             "NBA Quiz React App (Hackathon Submission)",
             ["JavaScript", "React", "Material UI"],
-            "An NBA quiz game created for a hackathon, built from scratch within the allotted 72-hour time frame. A user selects a date and the application calls the NBA api to collect data on every game from that date. The user then selects which game they would like to be quizzed on and the app presents 5 pseudo-random questions regarding various aspects of the box score."
+            "Our whirlwind development journey led us to craft the NBA Quiz React App within the thrilling 72-hour time frame of a hackathon. This interactive quiz game lets users pick a date, prompting the application to fetch data from the NBA API for all games on that day. Users can then select their desired game and engage with 5 pseudo-random questions on various facets of the box score."
         ],
         [
-            "Audio Cat Streaming Service",
+            "'Audio Cat' Streaming Service",
             ["Python", "Flask", "MySQL"],
-            "A full-stack audio streaming website built with Python and Flask that stores information about artists, songs, albums, users, and playlists on a MySQL relational database. The website is designed with Jinja2 and demonstrates proficiency with full stack web design as well as database design and management."
+            "Delve into the world of music with our comprehensive 'Audio Cat' streaming service. This full-stack audio streaming website, developed using Python and Flask, securely stores information about artists, songs, albums, users, and playlists on a robust MySQL relational database. The website, aesthetically designed with Jinja2, is a testament to our proficiency in full-stack web design and database management."
         ]
     ];
 
