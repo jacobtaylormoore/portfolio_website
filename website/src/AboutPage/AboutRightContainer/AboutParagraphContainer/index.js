@@ -8,13 +8,14 @@ function AboutParagraphContainer() {
                 About Me
             </h1>
             <p>
-                I’ve always been very passionate. I try my hardest to grow as a person every day. I love being a part of a group with a shared sense of community and I love connecting people wherever I can. Some of my many interests include playing team sports (especially basketball), creating small, fun projects on my Raspberry Pi, reading (especially Terry Pratchett), finding new movies, bouldering and traveling. My wife and I are constantly working to experience as much life as we can while we can.
+                I am a dedicated software developer with a strong commitment to personal growth. I am deeply passionate about my work and constantly strive to expand my skills and knowledge. I thrive in collaborative environments and take great pleasure in fostering connections among individuals. My diverse interests include team sports, particularly basketball, experimenting with creative projects on my Raspberry Pi, indulging in literature, with a special affinity for Terry Pratchett, discovering new films, bouldering, and exploring the world through travel.
             </p>
 
             <p>
-                The people I love mean everything to me and I’ve been lucky enough to be surrounded by incredible people. My wife, Alayna, and I got married in December of 2021 after dating for about 8 years. She is my best friend and we do just about everything together to this day along with our two dogs, Leonard and Luka. I’ve also built strong relationships with my friends here in town and all over the country.</p>
+                My wife and I share a deep commitment to experiencing life to the fullest. We got married in December of 2021 after an eight-year journey together. She is not only my life partner but also my best friend, and together with our two canine companions, Leonard and Luka, we have shared many memorable adventures. I have also cultivated enduring friendships both locally and across the country.
+            </p>
             <p>
-                I pride myself on being adaptable in uncomfortable situations and learning from the inevitable failures in life. I love collaborating with other people and being a part of exciting projects. But, whatever we’re working on, I always value the “Who” over the “What.”
+                Adaptability in challenging situations and learning from life's inevitable setbacks are values I hold dear. Collaborating with fellow professionals on exciting projects is where I find my true passion. Regardless of the project at hand, I place a strong emphasis on the people involved, believing that 'Who' matters more than 'What.'
             </p>
         </div>
     );
