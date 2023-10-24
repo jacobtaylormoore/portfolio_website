@@ -13,7 +13,7 @@ function Projects() {
         [
             "Wasteagram Mobile App",
             ["Flutter", "Dart", "Google Firebase"],
-            "A robust Flutter mobile app, affectionately dubbed 'Wasteagram', mirrors the familiar Instagram functionality. This app caters to small business owners, empowering them to manage their inventory seamlessly. It seamlessly operates on both iOS and Android, granting access to camera roll and photo library resources. Plus, it seamlessly connects to Google Firebase for database management, storing photos on Firestore."
+            "A robust Flutter mobile app, affectionately dubbed 'Wasteagram', mirrors the familiar Instagram functionality. This app caters to small business owners, empowering them to manage their inventory seamlessly. It operates on both iOS and Android, granting access to camera roll and photo library resources. It connects to Google Firebase for database management, storing photos on Firestore."
         ],
         [
             "NBA Quiz React App (Hackathon Submission)",
