@@ -3,7 +3,7 @@ import './index.css';
 function ContactTitleContainer() {
     return (
         <div id="ContactTitleContainer">
-            <p>Contact Me!</p>
+            <h2>Contact Me!</h2>
         </div>
     );
 }

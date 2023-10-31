@@ -8,6 +8,10 @@ import {
 } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import ErrorPage from './error-page';
+import './fonts/Forum-Regular.ttf';
+import './fonts/Gotu-Regular.ttf';
+import './fonts/Forum-Regular.ttf';
+import './font.css'
 
 const router = createBrowserRouter([
   {

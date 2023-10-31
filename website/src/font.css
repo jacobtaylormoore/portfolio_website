@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'ForumRegular';
+    src: local('ForumRegular'),
+        url('./fonts/Forum-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'GotuRegular';
+    src: local('GotuRegular'),
+        url('./fonts/Gotu-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: local('WorkSans'),
+        url('./fonts/WorkSans-VariableFont_wght.ttf') format('ttf');
+}

@@ -7,20 +7,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  font-family: "WorkSans";
+}
+
+p {
+  font-family: "WorkSans";
+  font-size: 1.12em;
+}
+
+li {
+  font-family: "WorkSans";
+  font-size: 1.08em;
+}
+
+
 h1 {
   font-size: 4em;
+  font-family: "ForumRegular";
 }
 
 h2 {
   font-size: 3em;
+  font-family: "ForumRegular";
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.7em;
+  font-family: "ForumRegular";
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.15em;
+  font-family: "ForumRegular";
 }
 
 code {
@@ -28,7 +47,23 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: 'ForumRegular';
+  src: local('ForumRegular'),
+    url('./fonts/Forum-Regular.ttf') format('ttf');
+}
 
+@font-face {
+  font-family: 'GotuRegular';
+  src: local('GotuRegular'),
+    url('./fonts/Gotu-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'WorkSans';
+  src: local('WorkSans'),
+    url('./fonts/WorkSans-VariableFont_wght.ttf') format('ttf');
+}
 
 :root {
   --primary-color: #E07A5F;

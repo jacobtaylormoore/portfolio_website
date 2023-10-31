@@ -14,7 +14,7 @@
 
 #SmallContainer:hover {
     min-height: 10.5em;
-    width: 77%;
+    width: 75.5%;
 
     box-shadow: 10px 5px 10px var(--shadow-color);
 }

@@ -3,7 +3,7 @@ import './index.css';
 function CompanyContainer(props) {
     return (
         <div id="CompanyContainer">
-            <p>{props.company}</p>
+            <h4>{props.company}</h4>
         </div>
     );
 }

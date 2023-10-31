@@ -9,6 +9,7 @@ function NavBar() {
     const NavButton = styled(Button)(() => ({
         color: "#3D405B",
         borderColor: "#3D405B",
+        fontFamily: "WorkSans",
         '&:hover': {
             color: "#3D405B",
             borderColor: "#3D405B",

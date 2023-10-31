@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 
+
 }
 
 body {
@@ -9,6 +10,7 @@ body {
 }
 
 .App-header {
+  font-family: "GotuRegular";
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -18,6 +20,10 @@ body {
   flex-basis: fit-content;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-section {
+  font-family: "ForumRegular";
 }
 
 .App-link {
