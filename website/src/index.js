@@ -12,11 +12,23 @@ import './fonts/Forum-Regular.ttf';
 import './fonts/Gotu-Regular.ttf';
 import './fonts/Forum-Regular.ttf';
 import './font.css'
+import Passage from './Passage/index.js';
+import PassageSuccess from './Passage/PassageSuccess';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/passage",
+    element: <Passage />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/passageSuccess",
+    element: <PassageSuccess />,
     errorElement: <ErrorPage />
   },
 ]);
